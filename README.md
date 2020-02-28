@@ -7,7 +7,7 @@ Using one ATmega328P with 16 MHz crystal for sending / modulating  DCF77
  Stripped out all things not needed and added D2 as input for modulation.
  Need an ATmega328P with 16 MHz crystal for working and a resistor for current limiting in 
  serie with D3 and antenna for not frying the ATMega(max 40.0 mA) or one transitor stage.
- U = R + I.  16MHz 328 is normally 5 V thats giving a 125 Ω then driving antenna without buffert.
+ (U = R * I) 16MHz 328 is normally 5 V thats giving a 125 Ω then driving antenna without buffert.
  Generating a stady 77500 Hz on D3 and modulation it then aplaying keying on input D2.
  Primerry for use with ESP-01S (Or other ESP8266) doing transmitting and modultion of DCF77.
  If you want one chip sulotion go for ESP32 that can do the DCF codeing and PWM in hardware.
