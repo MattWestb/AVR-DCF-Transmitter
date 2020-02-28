@@ -13,6 +13,6 @@ Using one ATmega328P with 16 MHz crystal for sending / modulating  DCF77
  If you want one chip sulotion go for ESP32 that can do the DCF codeing and PWM in hardware.
  One working ESP32 you can find on Andreas Spiess git: https://github.com/SensorsIot/DCF77-Transmitter-for-ESP32.
  If want to inject the DCF77 time signal in a clock (cuting away the reciver and inject the keying) 
- go for a ESP01S and use ESP-NTP-DCF77-Encoder.
+ go for a ESP01S and use ESP-NTP-DCF77-Encoder. 
  
  Copyright 2020 Mattias Westerberg of my parts as Udo above.
