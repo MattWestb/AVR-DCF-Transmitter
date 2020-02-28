@@ -7,7 +7,7 @@ Based on Udo Kleins code.
 Stripped out all things not needed and added D2 as input for modulation.
 
 Need an ATmega328P with 16 MHz crystal for working and a resistor for current limiting in 
-serie with D3 and antenna for not frying the ATMega(max 40.0 mA) or one transitor stage.
+serie with D3 and antenna for not frying the ATMega (max 40.0 mA) or one transitor stage.
 
 (U = R * I) 16MHz 328 is normally 5 V thats giving a 125 Ω then driving antenna without buffert.
 
